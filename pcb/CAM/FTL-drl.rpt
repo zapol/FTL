@@ -1,0 +1,23 @@
+Drill report for /home/zapol/FTL/pcb/FTL.brd
+Created on pon, 21 sty 2013, 21:13:29
+Selected Drill Unit: Imperial (")
+
+Drill report for through holes :
+T1  0,016"  0,40mm  (112 holes)
+T2  0,028"  0,70mm  (12 holes)
+T3  0,032"  0,80mm  (2 holes)
+T4  0,035"  0,90mm  (2 holes)
+T5  0,039"  1,00mm  (2 holes)
+T6  0,041"  1,05mm  (68 holes)
+T7  0,043"  1,10mm  (15 holes)
+T8  0,048"  1,22mm  (8 holes)
+T9  0,158"  4,00mm  (2 holes)
+
+total plated holes count 223
+
+
+Drill report for Not Plated through holes :
+
+total Not Plated holes count 0
+
+

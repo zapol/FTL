@@ -1,0 +1,798 @@
+# EESchema Netlist Version 1.1 created  pon, 21 sty 2013, 20:28:59
+(
+ ( /50FD950C $noname  J13 HEADER1X1 {Lib=HEADER1X1}
+  (    1 GND )
+ )
+ ( /50FD9508 $noname  J12 HEADER1X1 {Lib=HEADER1X1}
+  (    1 GND )
+ )
+ ( /50CE4E02 $noname  U7 STM32F103RXXX {Lib=STM32F103RXXX}
+  (    1 +3V3 )
+  (    2 /~IRQ )
+  (    3 /FFIT )
+  (    4 /~FFS )
+  (    5 N-000082 )
+  (    6 N-000026 )
+  (    7 /NRST )
+  (    8 /ADC10 )
+  (    9 /ADC11 )
+  (   10 /ADC12 )
+  (   11 /ADC13 )
+  (   12 GND )
+  (   13 N-000080 )
+  (   14 /ADC0 )
+  (   15 /ADC1 )
+  (   16 /ADC2 )
+  (   17 /ADC3 )
+  (   18 GND )
+  (   19 +3V3 )
+  (   20 /ADC4 )
+  (   21 /ADC5 )
+  (   22 /ADC6 )
+  (   23 /ADC7 )
+  (   24 /ADC14 )
+  (   25 /ADC15 )
+  (   26 /ADC8 )
+  (   27 /ADC9 )
+  (   28 /Motor1 )
+  (   29 /SCL2 )
+  (   30 /SDA2 )
+  (   31 GND )
+  (   32 +3V3 )
+  (   33 /CS )
+  (   34 /SCK )
+  (   35 /MISO )
+  (   36 /MOSI )
+  (   37 /ENC_A1 )
+  (   38 /ENC_A2 )
+  (   39 /ENC_B1 )
+  (   40 /ENC_B2 )
+  (   41 /PWM_A )
+  (   42 /PWM_B )
+  (   43 /USB_EN )
+  (   44 /USB_DM )
+  (   45 /USB_DP )
+  (   46 /TMS )
+  (   47 GND )
+  (   48 +3V3 )
+  (   49 /TCK )
+  (   50 /TDI )
+  (   51 ? )
+  (   52 ? )
+  (   53 /TxD )
+  (   54 /RxD )
+  (   55 /TDO )
+  (   56 /NJTRST )
+  (   57 /Motor2 )
+  (   58 /Motor3 )
+  (   59 /Motor4 )
+  (   60 GND )
+  (   61 /SCL1 )
+  (   62 /SDA1 )
+  (   63 GND )
+  (   64 +3V3 )
+ )
+ ( /50CF80B5 $noname  C19 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50CF80D8 $noname  C18 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50CF80DE $noname  C16 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50CF80E4 $noname  C15 100n {Lib=C}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /50CF80EA $noname  C13 100n {Lib=C}
+  (    1 GND )
+  (    2 N-000080 )
+ )
+ ( /50CF86A5 $noname  L5 ferrite_bead {Lib=L}
+  (    1 N-000080 )
+  (    2 +3V3 )
+ )
+ ( /50CF8864 $noname  C14 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000082 )
+ )
+ ( /50CF886F $noname  C17 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000026 )
+ )
+ ( /50D21F2F $noname  J1 USB-MINI-A {Lib=USB-MINI-A}
+  (    1 N-000051 )
+  (    2 /USB_DM )
+  (    3 /USB_DP )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
+ )
+ ( /50D236AE $noname  U3 RFM12B {Lib=RFM12B}
+  (    1 ? )
+  (    2 /MOSI )
+  (    3 /CS )
+  (    4 /~IRQ )
+  (    5 /FFIT )
+  (    6 ? )
+  (    7 GND )
+  (    8 ? )
+  (    9 /~FFS )
+  (   10 /MISO )
+  (   11 /SCK )
+  (   12 +3V3 )
+ )
+ ( /50D23EAD $noname  U4 MMA845X {Lib=MMA845X}
+  (    1 +3V3 )
+  (    2 N-000039 )
+  (    4 /SCL2 )
+  (    5 GND )
+  (    6 /SDA2 )
+  (    7 GND )
+  (    9 ? )
+  (   10 GND )
+  (   11 ? )
+  (   12 GND )
+  (   14 N-000075 )
+ )
+ ( /50D24108 $noname  U5 MMA845X {Lib=MMA845X}
+  (    1 +3V3 )
+  (    2 N-000031 )
+  (    4 /SCL1 )
+  (    5 GND )
+  (    6 /SDA1 )
+  (    7 GND )
+  (    9 ? )
+  (   10 GND )
+  (   11 ? )
+  (   12 GND )
+  (   14 N-000034 )
+ )
+ ( /50D248F5 $noname  U6 L298N {Lib=L298}
+  (    1 GND )
+  (    2 N-000076 )
+  (    3 N-000077 )
+  (    4 +15V )
+  (    5 /Motor1 )
+  (    6 /PWM_A )
+  (    7 /Motor2 )
+  (    8 GND )
+  (    9 +5V )
+  (   10 /Motor3 )
+  (   11 /PWM_B )
+  (   12 /Motor4 )
+  (   13 N-000078 )
+  (   14 N-000079 )
+  (   15 GND )
+ )
+ ( /50D24947 $noname  J2 Motor {Lib=HEADER1X2}
+  (    1 N-000076 )
+  (    2 N-000077 )
+ )
+ ( /50D24954 $noname  J3 Motor {Lib=HEADER1X2}
+  (    1 N-000078 )
+  (    2 N-000079 )
+ )
+ ( /50D25B83 $noname  C20 100n {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /50D25B89 $noname  C21 100n {Lib=C}
+  (    1 GND )
+  (    2 +15V )
+ )
+ ( /50D25EC3 $noname  R9 1k5 {Lib=R}
+  (    1 /USB_DP )
+  (    2 /USB_EN )
+ )
+ ( /50D26186 $noname  J5 HEADER2X10 {Lib=HEADER2X10}
+  (    1 +3V3 )
+  (    2 +3V3 )
+  (    3 /NJTRST )
+  (    4 GND )
+  (    5 /TDI )
+  (    6 GND )
+  (    7 /TMS )
+  (    8 GND )
+  (    9 /TCK )
+  (   10 GND )
+  (   11 ? )
+  (   12 GND )
+  (   13 /TDO )
+  (   14 GND )
+  (   15 /NRST )
+  (   16 GND )
+  (   17 ? )
+  (   18 GND )
+  (   19 ? )
+  (   20 GND )
+ )
+ ( /50D2701B $noname  R10 10k {Lib=R}
+  (    1 GND )
+  (    2 /NRST )
+ )
+ ( /50D2859A $noname  J6 HEADER2X10 {Lib=HEADER2X10}
+  (    1 GND )
+  (    2 +15V )
+  (    3 +3V3 )
+  (    4 +5V )
+  (    5 /ADC0 )
+  (    6 /ADC1 )
+  (    7 /ADC2 )
+  (    8 /ADC3 )
+  (    9 /ADC4 )
+  (   10 /ADC5 )
+  (   11 /ADC6 )
+  (   12 /ADC7 )
+  (   13 /ADC8 )
+  (   14 /ADC9 )
+  (   15 /ADC10 )
+  (   16 /ADC11 )
+  (   17 /ADC12 )
+  (   18 /ADC13 )
+  (   19 /ADC14 )
+  (   20 /ADC15 )
+ )
+ ( /50D4BD8A $noname  C9 100n {Lib=C}
+  (    1 GND )
+  (    2 N-000039 )
+ )
+ ( /50D4BDA3 $noname  C5 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50D4C1D6 $noname  L1 ferrite_bead {Lib=L}
+  (    1 N-000075 )
+  (    2 +3V3 )
+ )
+ ( /50D4C1F0 $noname  C3 4u7 {Lib=C}
+  (    1 GND )
+  (    2 N-000075 )
+ )
+ ( /50D4CC4B $noname  C6 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50D4CC57 $noname  L2 ferrite_bead {Lib=L}
+  (    1 N-000034 )
+  (    2 +3V3 )
+ )
+ ( /50D4CC5D $noname  C4 4u7 {Lib=C}
+  (    1 GND )
+  (    2 N-000034 )
+ )
+ ( /50D4CF16 $noname  C10 100n {Lib=C}
+  (    1 GND )
+  (    2 N-000031 )
+ )
+ ( /50D4D06B $noname  J8 UART {Lib=HEADER1X4}
+  (    1 GND )
+  (    2 /RxD )
+  (    3 /TxD )
+  (    4 +3V3 )
+ )
+ ( /50D4D957 $noname  J10 Encoder {Lib=HEADER1X4}
+  (    1 GND )
+  (    2 /ENC_A2 )
+  (    3 /ENC_A1 )
+  (    4 +3V3 )
+ )
+ ( /50D4DEBE $noname  J9 Encoder {Lib=HEADER1X4}
+  (    1 GND )
+  (    2 /ENC_B2 )
+  (    3 /ENC_B1 )
+  (    4 +3V3 )
+ )
+ ( /50D4E611 $noname  U2 MC34063 {Lib=MC34063}
+  (    1 +15V )
+  (    2 N-000083 )
+  (    3 N-000072 )
+  (    4 GND )
+  (    5 N-000073 )
+  (    6 +15V )
+  (    7 +15V )
+  (    8 +15V )
+ )
+ ( /50D4E61D $noname  L4 200u {Lib=L}
+  (    1 N-000083 )
+  (    2 +5V )
+ )
+ ( /50D4E623 $noname  R3 15k {Lib=R}
+  (    1 N-000073 )
+  (    2 +5V )
+ )
+ ( /50D4E629 $noname  R4 9k1 {Lib=R}
+  (    1 GND )
+  (    2 N-000073 )
+ )
+ ( /50D4E635 $noname  C2 470p {Lib=C}
+  (    1 GND )
+  (    2 N-000072 )
+ )
+ ( /50D4E641 $noname  C8 470u {Lib=CPOL}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /50D4E647 $noname  C12 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /50D4E64D $noname  D2 SS24 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000083 )
+ )
+ ( /50D4E6D2 $noname  J7 HEADER2X8 {Lib=HEADER2X8}
+  (    1 +15V )
+  (    2 +15V )
+  (    3 +15V )
+  (    4 +15V )
+  (    5 /Motor1 )
+  (    6 +3V3 )
+  (    7 /Motor2 )
+  (    8 +5V )
+  (    9 /Motor3 )
+  (   10 /PWM_A )
+  (   11 /Motor4 )
+  (   12 /PWM_B )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /50D4FA43 $noname  R5 4k7 {Lib=R}
+  (    1 /SCL2 )
+  (    2 +3V3 )
+ )
+ ( /50D4FA4E $noname  R7 4k7 {Lib=R}
+  (    1 /SDA2 )
+  (    2 +3V3 )
+ )
+ ( /50D50118 $noname  R6 4k7 {Lib=R}
+  (    1 /SCL1 )
+  (    2 +3V3 )
+ )
+ ( /50D5011E $noname  R8 4k7 {Lib=R}
+  (    1 /SDA1 )
+  (    2 +3V3 )
+ )
+ ( /50E31D2A $noname  D4 SS24 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000079 )
+ )
+ ( /50E31D62 $noname  D6 SS24 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000078 )
+ )
+ ( /50E31D77 $noname  D8 SS24 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000077 )
+ )
+ ( /50E31D7D $noname  D10 SS24 {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000076 )
+ )
+ ( /50E31D83 $noname  D9 SS24 {Lib=DIODESCH}
+  (    1 N-000076 )
+  (    2 +15V )
+ )
+ ( /50E31D89 $noname  D7 SS24 {Lib=DIODESCH}
+  (    1 N-000077 )
+  (    2 +15V )
+ )
+ ( /50E31D8F $noname  D5 SS24 {Lib=DIODESCH}
+  (    1 N-000078 )
+  (    2 +15V )
+ )
+ ( /50E31D95 $noname  D3 SS24 {Lib=DIODESCH}
+  (    1 N-000079 )
+  (    2 +15V )
+ )
+ ( /50E31F6A $noname  J4 Power {Lib=HEADER1X2}
+  (    1 GND )
+  (    2 N-000050 )
+ )
+ ( /50E48041 $noname  J11 Power {Lib=HEADER1X2}
+  (    1 N-000050 )
+  (    2 +15V )
+ )
+ ( /50D50DE0 $noname  X1 XT324 {Lib=XT324}
+  (    1 N-000082 )
+  (    2 GND )
+  (    3 N-000026 )
+  (    4 GND )
+ )
+ ( /50F474DB $noname  U1 LM1117 {Lib=LM1117}
+  (    1 GND )
+  (    2 +3V3 )
+  (    3 +5V )
+  (    4 +3V3 )
+ )
+ ( /50F47816 $noname  C1 100n {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /50F47BF7 $noname  C7 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+ ( /50F5B43A $noname  D1 SS24 {Lib=DIODESCH}
+  (    1 N-000051 )
+  (    2 +5V )
+ )
+ ( /50F70D11 $noname  C11 100n {Lib=C}
+  (    1 GND )
+  (    2 +3V3 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component U7
+ LQFP64
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "GND" "GND"
+ J9 1
+ J7 16
+ J7 15
+ J7 14
+ J7 13
+ J10 1
+ X1 4
+ X1 2
+ U7 60
+ R4 1
+ U7 31
+ U7 12
+ D2 1
+ C12 2
+ C8 2
+ U6 8
+ U6 1
+ U5 12
+ U5 10
+ U5 7
+ U5 5
+ U4 12
+ U4 10
+ U4 7
+ U4 5
+ U3 7
+ U2 4
+ C10 1
+ C4 1
+ C6 1
+ U7 47
+ U7 18
+ C11 1
+ J13 1
+ D4 1
+ J12 1
+ C7 1
+ C1 1
+ U6 15
+ J4 1
+ J8 1
+ U1 1
+ C2 1
+ D10 1
+ D8 1
+ U7 63
+ D6 1
+ C3 1
+ C5 1
+ C9 1
+ C13 1
+ J5 18
+ J6 1
+ R10 1
+ J5 16
+ J5 14
+ J5 12
+ J5 20
+ J5 10
+ J5 8
+ J5 6
+ C20 1
+ C21 1
+ J5 4
+ J1 5
+ J1 6
+ J1 7
+ J1 8
+ J1 9
+ C19 1
+ C18 1
+ C14 1
+ C17 1
+ C16 1
+Net 5 "/NRST" "NRST"
+ U7 7
+ R10 2
+ J5 15
+Net 6 "/USB_EN" "USB_EN"
+ R9 2
+ U7 43
+Net 7 "/SCL1" "SCL1"
+ U5 4
+ R6 1
+ U7 61
+Net 8 "/SDA1" "SDA1"
+ R8 1
+ U7 62
+ U5 6
+Net 9 "/SDA2" "SDA2"
+ U7 30
+ U4 6
+ R7 1
+Net 10 "/ADC14" "ADC14"
+ U7 24
+ J6 19
+Net 11 "/ADC15" "ADC15"
+ U7 25
+ J6 20
+Net 12 "/ADC7" "ADC7"
+ U7 23
+ J6 12
+Net 13 "/ADC8" "ADC8"
+ J6 13
+ U7 26
+Net 14 "/ADC9" "ADC9"
+ J6 14
+ U7 27
+Net 15 "/ADC10" "ADC10"
+ U7 8
+ J6 15
+Net 16 "/ADC11" "ADC11"
+ U7 9
+ J6 16
+Net 17 "/ADC12" "ADC12"
+ J6 17
+ U7 10
+Net 18 "/ADC13" "ADC13"
+ J6 18
+ U7 11
+Net 19 "/ADC0" "ADC0"
+ U7 14
+ J6 5
+Net 20 "/ADC1" "ADC1"
+ J6 6
+ U7 15
+Net 21 "/ADC2" "ADC2"
+ J6 7
+ U7 16
+Net 22 "/ADC3" "ADC3"
+ U7 17
+ J6 8
+Net 23 "/ADC4" "ADC4"
+ U7 20
+ J6 9
+Net 24 "/ADC5" "ADC5"
+ U7 21
+ J6 10
+Net 25 "/ADC6" "ADC6"
+ U7 22
+ J6 11
+Net 26 "" ""
+ U7 6
+ C17 2
+ X1 3
+Net 29 "/USB_DM" "USB_DM"
+ J1 2
+ U7 44
+Net 31 "" ""
+ C10 2
+ U5 2
+Net 34 "" ""
+ U5 14
+ L2 1
+ C4 2
+Net 35 "+5V" "+5V"
+ J7 8
+ U6 9
+ J6 4
+ C20 2
+ D1 2
+ C1 2
+ C8 1
+ C12 1
+ R3 2
+ L4 2
+ U1 3
+Net 39 "" ""
+ U4 2
+ C9 2
+Net 42 "/PWM_A" "PWM_A"
+ U6 6
+ J7 10
+ U7 41
+Net 43 "/PWM_B" "PWM_B"
+ J7 12
+ U7 42
+ U6 11
+Net 44 "/Motor3" "Motor3"
+ U7 58
+ J7 9
+ U6 10
+Net 45 "/Motor4" "Motor4"
+ U7 59
+ U6 12
+ J7 11
+Net 46 "/SCL2" "SCL2"
+ R5 1
+ U7 29
+ U4 4
+Net 47 "+15V" "+15V"
+ D5 2
+ J7 1
+ U2 6
+ U2 7
+ U2 8
+ J7 2
+ U6 4
+ D3 2
+ J6 2
+ C21 2
+ J11 2
+ J7 3
+ J7 4
+ D9 2
+ D7 2
+ U2 1
+Net 48 "/Motor1" "Motor1"
+ J7 5
+ U6 5
+ U7 28
+Net 49 "/Motor2" "Motor2"
+ J7 7
+ U6 7
+ U7 57
+Net 50 "" ""
+ J11 1
+ J4 2
+Net 51 "" ""
+ J1 1
+ D1 1
+Net 54 "/SCK" "SCK"
+ U3 11
+ U7 34
+Net 55 "/TDO" "TDO"
+ U7 55
+ J5 13
+Net 56 "/RxD" "RxD"
+ U7 54
+ J8 2
+Net 57 "/TxD" "TxD"
+ U7 53
+ J8 3
+Net 58 "/CS" "CS"
+ U3 3
+ U7 33
+Net 59 "/MISO" "MISO"
+ U3 10
+ U7 35
+Net 60 "/MOSI" "MOSI"
+ U7 36
+ U3 2
+Net 61 "/~IRQ" "~IRQ"
+ U3 4
+ U7 2
+Net 62 "/FFIT" "FFIT"
+ U3 5
+ U7 3
+Net 63 "/~FFS" "~FFS"
+ U3 9
+ U7 4
+Net 64 "/NJTRST" "NJTRST"
+ U7 56
+ J5 3
+Net 65 "/TDI" "TDI"
+ U7 50
+ J5 5
+Net 66 "/TMS" "TMS"
+ U7 46
+ J5 7
+Net 67 "/TCK" "TCK"
+ U7 49
+ J5 9
+Net 68 "/ENC_A2" "ENC_A2"
+ U7 38
+ J10 2
+Net 69 "/ENC_B1" "ENC_B1"
+ J9 3
+ U7 39
+Net 70 "/ENC_B2" "ENC_B2"
+ J9 2
+ U7 40
+Net 71 "/ENC_A1" "ENC_A1"
+ U7 37
+ J10 3
+Net 72 "" ""
+ U2 3
+ C2 2
+Net 73 "" ""
+ U2 5
+ R3 1
+ R4 2
+Net 74 "+3V3" "+3V3"
+ U4 1
+ J5 1
+ U3 12
+ J5 2
+ R5 2
+ R7 2
+ J6 3
+ R6 2
+ C18 2
+ C19 2
+ U7 19
+ U7 48
+ L5 2
+ C16 2
+ L1 2
+ C5 2
+ U5 1
+ U7 32
+ J8 4
+ J10 4
+ R8 2
+ J9 4
+ C6 2
+ L2 2
+ U7 64
+ C7 2
+ C11 2
+ U7 1
+ J7 6
+ U1 2
+ U1 4
+Net 75 "" ""
+ U4 14
+ L1 1
+ C3 2
+Net 76 "" ""
+ J2 1
+ D9 1
+ D10 2
+ U6 2
+Net 77 "" ""
+ D8 2
+ D7 1
+ U6 3
+ J2 2
+Net 78 "" ""
+ D6 2
+ J3 1
+ D5 1
+ U6 13
+Net 79 "" ""
+ J3 2
+ D3 1
+ D4 2
+ U6 14
+Net 80 "" ""
+ L5 1
+ U7 13
+ C13 2
+Net 81 "/USB_DP" "USB_DP"
+ R9 1
+ U7 45
+ J1 3
+Net 82 "" ""
+ U7 5
+ C14 2
+ X1 1
+Net 83 "" ""
+ D2 2
+ L4 1
+ U2 2
+}
+#End
