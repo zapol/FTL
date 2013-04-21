@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date pon, 21 sty 2013, 20:28:53
+EESchema Schematic File Version 2  date śro, 6 mar 2013, 13:58:31
 LIBS:newlib
 LIBS:power
 LIBS:FTL-cache
@@ -8,7 +8,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "FTL"
-Date "21 jan 2013"
+Date "6 mar 2013"
 Rev "1"
 Comp "Zapol"
 Comment1 ""
@@ -903,10 +903,10 @@ $EndComp
 $Comp
 L C C15
 U 1 1 50CF80E4
-P 4750 3950
-F 0 "C15" V 4850 3850 50  0000 L BNN
-F 1 "100n" V 4650 3750 50  0000 L TNN
-	1    4750 3950
+P 4800 3950
+F 0 "C15" V 4900 3850 50  0000 L BNN
+F 1 "100n" V 4700 3750 50  0000 L TNN
+	1    4800 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1682,7 +1682,7 @@ L R R3
 U 1 1 50D4E623
 P 2400 2050
 F 0 "R3" H 2300 2100 50  0000 L BNN
-F 1 "15k" H 2400 2045 50  0000 C CNN
+F 1 "12k" H 2400 2045 50  0000 C CNN
 	1    2400 2050
 	0    -1   -1   0   
 $EndComp
@@ -1691,7 +1691,7 @@ L R R4
 U 1 1 50D4E629
 P 2400 2350
 F 0 "R4" H 2300 2400 50  0000 L BNN
-F 1 "9k1" H 2400 2345 50  0000 C CNN
+F 1 "3k9" H 2400 2345 50  0000 C CNN
 	1    2400 2350
 	0    -1   -1   0   
 $EndComp
