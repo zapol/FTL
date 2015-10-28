@@ -4,6 +4,7 @@
 #include "debug.h"
 #include "maint_usart.h"
 #include "pprintf.h"
+#include "motors.h"
 
 /* Private function prototypes -----------------------------------------------*/
 void NVIC_Configuration(void);

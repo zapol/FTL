@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
+	<File name="Makefile" open="0" top="0" tabpos="0">
+		<Cursor position="9761" topLine="94" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="0">
+		<Cursor position="532" topLine="12" />
+	</File>
+	<File name="motors.c" open="0" top="0" tabpos="0">
+		<Cursor position="42" topLine="18" />
+	</File>
+	<File name="stm32_flash.ld" open="0" top="0" tabpos="0">
+		<Cursor position="2671" topLine="76" />
+	</File>
+	<File name="system_stm32f10x.c" open="0" top="0" tabpos="0">
+		<Cursor position="30692" topLine="995" />
+	</File>
+	<File name="utask.c" open="0" top="0" tabpos="0">
+		<Cursor position="1042" topLine="48" />
+	</File>
 </CodeBlocks_layout_file>

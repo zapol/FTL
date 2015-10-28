@@ -1,6 +1,6 @@
-update=pon, 14 sty 2013, 22:53:39
+update=Thu 27 Feb 2014 21:56:29 CET
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,20 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=/duzy/praca/kicad_projects/libraries
-NetFmtName=Pcbnew
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=newlib
-LibName2=power
 [pcbnew]
 version=1
 LastNetListRead=FTL.net
@@ -43,3 +29,20 @@ MSegLar=79
 LibDir=/duzy/praca/kicad_projects/libraries
 LibName1=newlib
 LibName2=pinHeaders
+[eeschema]
+version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=/duzy/praca/kicad_projects/libraries;/usr/share/kicad/library
+NetFmtName=Pcbnew
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=newlib
+LibName3=device
+LibName4=74xgxx
+LibName5=74xx

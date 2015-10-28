@@ -79,7 +79,7 @@
 # Toolchain prefix (i.e arm-elf- -> arm-elf-gcc.exe)
 #TCHAIN_PREFIX = arm-eabi-
 #TCHAIN_PREFIX = arm-elf-
-TCHAIN_PREFIX = /opt/arm/bin/arm-none-eabi-
+TCHAIN_PREFIX = /opt/arm-2011.03/bin/arm-none-eabi-
 REMOVE_CMD=rm
 #REMOVE_CMD=cs-rm
 
@@ -176,7 +176,6 @@ CPPSRCARM =
 # it will preserve the spelling of the filenames, and gcc itself does
 # care about how the name is spelled on its command-line.
 ASRC = $(CMSISDEVDIR)/startup/gcc_ride7/startup_stm32f10x_md.s
-#ASRC = startup_stm32f10x_md_vl.s
 
 # List Assembler source files here which must be assembled in ARM-Mode..
 ASRCARM =
